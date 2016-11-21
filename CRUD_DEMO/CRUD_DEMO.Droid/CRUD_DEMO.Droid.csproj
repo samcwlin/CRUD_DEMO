@@ -62,6 +62,10 @@
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Prism, Version=6.2.0.0, Culture=neutral, PublicKeyToken=91a96d2a154366d8, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Prism.Core.6.2.0\lib\MonoAndroid10\Prism.dll</HintPath>
       <Private>True</Private>
@@ -133,6 +137,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
@@ -152,6 +157,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\drawable\Loading.png" />
+    <AndroidResource Include="Resources\drawable\hamburger.png" />
+    <AndroidResource Include="Resources\drawable\Save.png" />
+    <AndroidResource Include="Resources\drawable\Add.png" />
+    <AndroidResource Include="Resources\drawable\Cancel.png" />
+    <AndroidResource Include="Resources\drawable\Delete.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CRUD_DEMO\CRUD_DEMO.csproj">

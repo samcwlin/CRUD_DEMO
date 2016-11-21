@@ -108,6 +108,12 @@
     <None Include="CRUD_DEMO.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\Add.png" />
+    <Content Include="Assets\Images\Cancel.png" />
+    <Content Include="Assets\Images\Delete.png" />
+    <Content Include="Assets\Images\hamburger.png" />
+    <Content Include="Assets\Images\Loading.png" />
+    <Content Include="Assets\Images\Save.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
